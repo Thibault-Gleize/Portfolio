@@ -10,11 +10,11 @@ export default function Header () {
             </div>
             <nav>
                 <ul>
-                    <li>Accueil</li>
-                    <li>A propos de moi</li>
-                    <li>Compétences</li>
-                    <li>Projets</li>
-                    <li>Contact</li>
+                    <a href=""><li><i className="fa-solid fa-house"></i>Accueil</li></a>
+                    <a href=""><li><i className="fa-solid fa-user"></i>A propos de moi</li></a>
+                    <a href=""><li><i className="fa-solid fa-bullseye"></i>Compétences</li></a>
+                    <a href=""><li><i className="fa-solid fa-diagram-project"></i>Projets</li></a>
+                    <a href=""><li><i className="fa-solid fa-envelope"></i>Contact</li></a>
                 </ul>
             </nav>
         </header>
