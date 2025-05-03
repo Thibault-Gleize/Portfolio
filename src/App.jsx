@@ -1,8 +1,10 @@
 import './styles/App.scss'
+import Header from './features/Header/Header'
 
 function App() {
   return (
-    <h1>Hello world</h1>
+    <Header /> 
+    
   )
 }
 
