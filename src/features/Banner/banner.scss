@@ -11,7 +11,7 @@
 
 h2{
     font-size: 55px;
-    width: 50%;
+    width: 55%;
     text-align: center;
 }
 
@@ -23,10 +23,16 @@ button{
     font-size: 35px;
     width: 400px;
     height: 100px;
-    transition: opacity 0.2s linear;
+    transition: opacity 0.2s linear, box-shadow 0.2s;
     opacity: 0.7;
+    box-shadow: none;
 
     &:hover{
         opacity: 1;
+        box-shadow: 
+        0 0 5px #fff, 
+        0 0 10px #fff, 
+        0 0 20px #fff, 
+        0 0 40px #00a2ff,;
     }
 }

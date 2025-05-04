@@ -1,0 +1,91 @@
+.about-me{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding: 100px;
+    border-radius: 25px;
+    margin-top: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: white;
+    border-style: inset;
+    color: white;
+    box-shadow:
+    0 0 5px #fff, 
+    0 0 10px #fff, 
+    0 0 20px #fff, 
+    0 0 40px #00a2ff, 
+    0 0 80px #00a2ff, 
+    0 0 90px #00a2ff, 
+    0 0 100px #00a2ff, 
+    0 0 150px #00a2ff;
+
+    .title{
+        font-size: 40px;
+        margin-bottom: 50px;
+        text-decoration: underline;
+    }
+
+    img{
+        height: 800px;
+        object-fit: contain;
+    }
+
+    .presentation{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .portrait{
+        border-radius: 20px;
+        width: 700px;
+        height: 800px;
+        background-image: url(Thibault1.jpg);
+        background-size: cover;
+        box-shadow: 
+        inset 100px 0px 100px 0px #030047,
+    }
+
+    .description{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        text-align: center;
+        font-size: 35px;
+        width: 50%;
+    }
+
+    .descriptions__buttons{
+        display: flex;
+        gap: 25px;
+
+        .description__button{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #030051;
+            background-color: rgb(124, 167, 223);
+            border-radius: 25px;
+            margin-top: 45px;
+            font-size: 35px;
+            width: 400px;
+            height: 100px;
+            transition: opacity 0.2s linear, box-shadow 0.2s;
+            opacity: 0.7;
+            box-shadow: none;
+            text-decoration: none;
+        
+            &:hover{
+                opacity: 1;
+                box-shadow: 
+                0 0 5px #fff, 
+                0 0 10px #fff, 
+                0 0 20px #fff, 
+                0 0 40px #00a2ff,;
+            }
+        }
+    }   
+
+}
