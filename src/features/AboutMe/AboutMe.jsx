@@ -3,7 +3,7 @@ import CV from '../../assets/datas/Thibault_Gleize_CV.pdf'
 
 export default function AboutMe () {
     return(
-        <section className='about-me'>
+        <section className='about-me section'>
             <div className='title'>
                 <h3> A propos de moi </h3>
             </div>
