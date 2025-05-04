@@ -8,8 +8,7 @@ export default function AboutMe () {
                 <h3> A propos de moi </h3>
             </div>
             <div className='presentation'>
-                <div className='portrait'>
-                </div>
+                <div className='portrait'></div>
                 <div className='description'>
                     <h4>Passé par le monde des centres d'appels, j'y ai appris à écouter les utilisateurs et à chercher des solutions efficaces. Ces compétences me guident aujourd'hui dans mon travail d'intégration web, où je m'efforce de bâtir des interfaces qui allient simplicité d'usage et performance technique.</h4>
                     <h5>Mon objectif &#x1F3AF;
