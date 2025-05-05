@@ -6,7 +6,7 @@ export default function MySkills () {
     const skillsList = SkillsData.skills
 
     return (
-        <section className='section'>
+        <section className='skills section'>
             <div className='title'>
                 <h3>Mes compétences</h3>
             </div>
@@ -14,7 +14,7 @@ export default function MySkills () {
                 {
                     skillsList.map((skill) => 
                         <li key={skill.name}>
-                            <img src={skill.path}></img>
+                            <img src={skill.path} alt={`Logo de ${skill.name}`}></img>
                             <h4>{skill.name}</h4>
                         </li>
                     )
