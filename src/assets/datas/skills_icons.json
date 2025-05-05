@@ -3,35 +3,35 @@
     [
         {
             "name" : "HTML 5",
-            "path" : "/skills/html5-2.svg"
+            "path" : "src/assets/images/skills/bootstrap-5-1.svg"
         },
         {
             "name" : "CSS",
-            "path" : "/skills/css-3.svg"
+            "path" : "src/assets/images/skills/css-3.svg"
         },
         {
             "name" : "SASS",
-            "path" : "/skills/sass-1.svg"
+            "path" : "src/assets/images/skills/sass-1.svg"
         },
         {
             "name" : "JavaScript",
-            "path" : "/skills/javascript-1.svg"
+            "path" : "src/assets/images/skills/javascript-1.svg"
         },
         {
             "name" : "React",
-            "path" : "/skills/react-2.svg"
+            "path" : "src/assets/images/skills/react-2.svg"
         },
         {
             "name" : "redux",
-            "path" : "/skills/redux.svg"
+            "path" : "src/assets/images/skills/redux.svg"
         },
         {
             "name" : "Python",
-            "path" : "/skills/python-5.svg"
+            "path" : "src/assets/images/skills/python-5.svg"
         },
         {
             "name" : "BootStrap",
-            "path" : "/skills/bootstrap-5-1.svg"
+            "path" : "src/assets/images/skills/bootstrap-5-1.svg"
         }
     ]
 }
