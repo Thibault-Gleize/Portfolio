@@ -3,35 +3,35 @@
     [
         {
             "name" : "HTML 5",
-            "path" : "/Projet_12/src/assets/images/skills/html5-2.svg"
+            "path" : "/Projet_12/src/assets/images/html5-2.svg"
         },
         {
             "name" : "CSS",
-            "path" : "/Projet_12/src/assets/images/skills/css-3.svg"
+            "path" : "/Projet_12/src/assets/images/css-3.svg"
         },
         {
             "name" : "SASS",
-            "path" : "/Projet_12/src/assets/images/skills/sass-1.svg"
+            "path" : "/Projet_12/src/assets/images/sass-1.svg"
         },
         {
             "name" : "JavaScript",
-            "path" : "/Projet_12/src/assets/images/skills/javascript-1.svg"
+            "path" : "/Projet_12/src/assets/images/javascript-1.svg"
         },
         {
             "name" : "React",
-            "path" : "/Projet_12/src/assets/images/skills/react-2.svg"
+            "path" : "/Projet_12/src/assets/images/react-2.svg"
         },
         {
             "name" : "redux",
-            "path" : "/Projet_12/src/assets/images/skills/redux.svg"
+            "path" : "/Projet_12/src/assets/images/redux.svg"
         },
         {
             "name" : "Python",
-            "path" : "/Projet_12/src/assets/images/skills/python-5.svg"
+            "path" : "/Projet_12/src/assets/images/python-5.svg"
         },
         {
             "name" : "BootStrap",
-            "path" : "/Projet_12/src/assets/images/skills/bootstrap-5-1.svg"
+            "path" : "/Projet_12/src/assets/images/bootstrap-5-1.svg"
         }
     ]
 }

@@ -2,7 +2,7 @@
      "projects": [
         {
             "name" : "Booki",
-            "image_path" : "/Projet_12/src/assets/images/projects_imgs/thibault-gleize.github.io_Projet_3_.png",
+            "image_path" : "/Projet_12/src/assets/images/thibault-gleize.github.io_Projet_3_.png",
             "github_link" : "https://github.com/Thibault-Gleize/Projet_3",
             "git_page_link" : "https://thibault-gleize.github.io/Projet_3/",
             "description" : "Site de réservation de logement",
@@ -10,16 +10,16 @@
         },
         {
             "name" : "Oh My Food",
-            "image_path" : "/Projet_12/src/assets/images/projects_imgs/thibault-gleize.github.io_Projet-4_.png",
+            "image_path" : "/Projet_12/src/assets/images/thibault-gleize.github.io_Projet-4_.png",
             "github_link" : "https://github.com/Thibault-Gleize/Projet-4",
-            "image_list" : ["/projects_imgs/thibault-gleize.github.io_Projet-4_.png", ""],
+            "image_list" : ["/thibault-gleize.github.io_Projet-4_.png", ""],
             "git_page_link" : "https://thibault-gleize.github.io/Projet-4/",
             "description" : "Site de commande de plat",
             "Compétences utilisées" : "HTML / SASS"
         },
         {
             "name" : "Print-it",
-            "image_path" : "/Projet_12/src/assets/images/projects_imgs/thibault-gleize.github.io_Projet_5_.png",
+            "image_path" : "/Projet_12/src/assets/images/thibault-gleize.github.io_Projet_5_.png",
             "github_link" : "https://github.com/Thibault-Gleize/Projet_5",
             "git_page_link" : "https://thibault-gleize.github.io/Projet_5/",
             "description" : "Page d'acceuil d'une enseigne d'impression",
@@ -27,13 +27,13 @@
         },
         {
             "name" : "Sophie Bluel - Architecte d'intérieur",
-            "image_path" : "/Projet_12/src/assets/images/projects_imgs/Projet_6_img1.png",
+            "image_path" : "/Projet_12/src/assets/images/Projet_6_img1.png",
             "image_list" : 
             [
-                "/Projet_12/src/assets/images/projects_imgs/Projet_6_img1.png", 
-                "/Projet_12/src/assets/images/projects_imgs/Projet_6_img2.png",
-                "/Projet_12/src/assets/images/projects_imgs/Projet_6_img3.png",
-                "/Projet_12/src/assets/images/projects_imgs/Projet_6_img4.png"
+                "/Projet_12/src/assets/images/Projet_6_img1.png", 
+                "/Projet_12/src/assets/images/Projet_6_img2.png",
+                "/Projet_12/src/assets/images/Projet_6_img3.png",
+                "/Projet_12/src/assets/images/Projet_6_img4.png"
             ],
             "github_link" : "https://github.com/Thibault-Gleize/Projet-6",
             "git_page_link" : "",
