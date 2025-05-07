@@ -12,7 +12,15 @@ export default function Projects () {
                 <h3>Mes projets</h3>
             </div>
             <ul className='project-list'>
-                {projects_list.map((project) => <li key={project.name}><ProjectCard name={project.name} img={project.image_path} description={project.description} skills={project.skills} /></li>)}
+                {projects_list.map((project) => <li key={project.name}>
+                    <ProjectCard 
+                    name={project.name} 
+                    img={project.image_path} 
+                    description={project.description}
+                    skills={project.skills}
+                    repo={project.github_link}
+                    demo={project.git_page_link}
+                    /></li>)}
             </ul>
         </section>
     )
