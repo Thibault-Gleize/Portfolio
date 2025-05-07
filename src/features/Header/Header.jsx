@@ -1,23 +1,34 @@
 import './header.scss';
 import logo from '../../assets/images/logo_TG.png'
+import { useState } from 'react';
+
 
 
 export default function Header () {
+
+    let [open, setOpen] = useState("default")
+
+    function openNav() {
+        setOpen(open === false || open === "default" ? open = true : open = false)
+        const navLinks = document.querySelector("ul")
+        open === false || open === "default" ? navLinks.style.display = "none" : navLinks.style.display = "block"
+    }
 
     return (
         <header>
             <div className='logo-and-name'>
                 <img src={logo} alt='Logo du portfolio de Thibault Gleize'></img>
                 <h1>Thibault Gleize</h1>
+                <input 
+                    type="checkbox" 
+                    role="button" 
+                    aria-label="Display the menu" 
+                    className="menu"
+                    onClick={() => openNav()}
+                >
+                </input>
             </div>
             <nav>
-                <svg id="hamburger" className="Header__toggle-svg" viewBox="0 0 60 40">
-                    <g stroke="#fff" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round">
-                        <path id="top-line" d="M10,10 L50,10 Z"></path>
-                        <path id="middle-line" d="M10,20 L50,20 Z"></path>
-                        <path id="bottom-line" d="M10,30 L50,30 Z"></path>
-                    </g>
-                </svg>
                 <ul>
                     <a href=""><li><i className="fa-solid fa-user"></i>A propos de moi</li></a>
                     <a href=""><li><i className="fa-solid fa-bullseye"></i>Compétences</li></a>
