@@ -1,6 +1,7 @@
 .project-list{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
     column-gap: 50px;
     row-gap: 50px;
 }

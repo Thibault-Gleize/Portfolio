@@ -8,11 +8,13 @@ import Projects from './features/Projects/Projects'
 function App() {
   return (
     <>
-      <Header /> 
-      <Banner />
-      <AboutMe />
-      <MySkills />
-      <Projects />
+      <Header />
+      <main>
+        <Banner />
+        <AboutMe />
+        <MySkills />
+        <Projects />
+      </main>
     </>
   )
 }
