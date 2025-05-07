@@ -3,7 +3,6 @@ import logo from '../../assets/images/logo_TG.png'
 import { useState } from 'react';
 
 
-
 export default function Header () {
 
     let [open, setOpen] = useState("default")
@@ -11,7 +10,7 @@ export default function Header () {
     function openNav() {
         setOpen(open === false || open === "default" ? open = true : open = false)
         const navLinks = document.querySelector("ul")
-        open === false || open === "default" ? navLinks.style.display = "none" : navLinks.style.display = "block"
+        open === false || open === "default" ? navLinks.style.display = "none" : navLinks.style.display = "flex"
     }
 
     return (
