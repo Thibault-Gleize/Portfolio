@@ -5,7 +5,7 @@
             "image_path" : "/Projet_12/src/assets/images/thibault-gleize.github.io_Projet_3_.png",
             "github_link" : "https://github.com/Thibault-Gleize/Projet_3",
             "git_page_link" : "https://thibault-gleize.github.io/Projet_3/",
-            "description" : "Site de réservation de logement",
+            "description" : "Site de réservation de logement responsive",
             "skills" : "HTML / CSS"
         },
         {
@@ -14,7 +14,7 @@
             "github_link" : "https://github.com/Thibault-Gleize/Projet-4",
             "image_list" : ["/thibault-gleize.github.io_Projet-4_.png", ""],
             "git_page_link" : "https://thibault-gleize.github.io/Projet-4/",
-            "description" : "Site de commande de plat",
+            "description" : "Site de commande de plat avec animations",
             "skills" : "HTML / SASS"
         },
         {
@@ -22,7 +22,7 @@
             "image_path" : "/Projet_12/src/assets/images/thibault-gleize.github.io_Projet_5_.png",
             "github_link" : "https://github.com/Thibault-Gleize/Projet_5",
             "git_page_link" : "https://thibault-gleize.github.io/Projet_5/",
-            "description" : "Page d'acceuil d'une enseigne d'impression",
+            "description" : "Page d'acceuil d'une enseigne d'impression avec mise en place d'un carrousel pour la bannière",
             "skills" : "JavaScript"
         },
         {

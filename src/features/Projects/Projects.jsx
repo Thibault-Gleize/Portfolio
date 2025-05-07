@@ -7,7 +7,7 @@ export default function Projects () {
     const projects_list = ProjectsData.projects
 
     return (
-        <section className='projects section'>
+        <section id="projects" className='projects section'>
             <div className='title'>
                 <h3>Mes projets</h3>
             </div>

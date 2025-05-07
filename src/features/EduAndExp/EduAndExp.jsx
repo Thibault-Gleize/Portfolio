@@ -9,7 +9,7 @@ export default function EduAndExp () {
     const experiences_datas = EduAndExp_Data.jobs
 
     return (
-        <section className='EduAndExp section'>
+        <section id='degree' className='EduAndExp section'>
             <h3 className='title'>Diplômes et expériences Professionnels</h3>
             <div className='edu-and-exp-container'>
                 <div className='educations'>

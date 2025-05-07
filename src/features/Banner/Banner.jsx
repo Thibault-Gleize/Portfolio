@@ -10,9 +10,9 @@ export default function Banner () {
                 <br/>
                 Je suis Thibault Gleize, 
                 <br/>
-                Du code sur mesure pour votre projet, avec la passion d'un junior et la rigueur d'un pro !
+                Je vous propose du code sur mesure pour votre projet, avec la passion d'un junior et la rigueur d'un pro !
             </h2>
-            <button>Apprenez en plus sur moi &#x270C;</button>
+            <a href="#about-me"><button>Apprenez en plus sur moi &#x270C;</button></a>
         </section>
     )
 }

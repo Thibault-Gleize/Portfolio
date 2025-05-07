@@ -6,7 +6,7 @@ export default function MySkills () {
     const skillsList = SkillsData.skills
 
     return (
-        <section className='skills section'>
+        <section id='skills' className='skills section'>
             <div className='title'>
                 <h3>Mes compétences</h3>
             </div>
