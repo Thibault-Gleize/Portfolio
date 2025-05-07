@@ -3,8 +3,12 @@
     flex-direction: column;
     background-color: #0500a0;
     padding: 15px 35px;
-    min-width: 400px;
+    min-width: 350px;
     gap: 10px;
+
+    @media (max-width: 1024px) {
+        min-width: auto;
+    }
 
     p{
         font-size: 0.825rem;
