@@ -6,7 +6,7 @@
             "github_link" : "https://github.com/Thibault-Gleize/Projet_3",
             "git_page_link" : "https://thibault-gleize.github.io/Projet_3/",
             "description" : "Site de réservation de logement",
-            "Compétences utilisées" : "HTML / CSS"
+            "skills" : "HTML / CSS"
         },
         {
             "name" : "Oh My Food",
@@ -15,7 +15,7 @@
             "image_list" : ["/thibault-gleize.github.io_Projet-4_.png", ""],
             "git_page_link" : "https://thibault-gleize.github.io/Projet-4/",
             "description" : "Site de commande de plat",
-            "Compétences utilisées" : "HTML / SASS"
+            "skills" : "HTML / SASS"
         },
         {
             "name" : "Print-it",
@@ -23,7 +23,7 @@
             "github_link" : "https://github.com/Thibault-Gleize/Projet_5",
             "git_page_link" : "https://thibault-gleize.github.io/Projet_5/",
             "description" : "Page d'acceuil d'une enseigne d'impression",
-            "Compétences utilisées" : "JavaScript"
+            "skills" : "JavaScript"
         },
         {
             "name" : "Sophie Bluel - Architecte d'intérieur",
@@ -38,7 +38,7 @@
             "github_link" : "https://github.com/Thibault-Gleize/Projet-6",
             "git_page_link" : "",
             "description" : "Création d'un portfolio pour un architecte d'intérieur utilisant un système de login et modal pouvant ajouter ou supprimer les différentes images du portfolio",
-            "Compétences utilisées" : "Javascript / Node.JS / Swagger"
+            "skills" : "Javascript / Node.JS / Swagger"
         }
      ]
 }

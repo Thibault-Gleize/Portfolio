@@ -22,6 +22,7 @@ export default function ProjectModal ({isOpen, onRequestClose, project }) {
                     <a href=""><button>Repo GitHub</button></a>
                     <a href=""><button>Demo</button></a>
                 </div>
+                <p>Compétences utilisés : {project.skills}</p>
             </div>
             <div className="modal-img">
                 <img src={project.img} alt={`Aperçu du projet ${project.name}`} />

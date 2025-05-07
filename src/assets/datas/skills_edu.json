@@ -40,6 +40,11 @@
             "niveau" : "/ Bac +2 (Niveau 5)",
             "from" : "Open ClassRoom",
             "date" : "Juin 2024 - Mai 2025"
+        },
+        {
+            "name" : "Niveau Bac ES",
+            "from" : "Lycée Condorcet",
+            "date" : "Juin 2017"
         }
     ], 
     "jobs": [
