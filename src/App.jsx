@@ -4,6 +4,7 @@ import Banner from './features/Banner/Banner'
 import AboutMe from './features/AboutMe/AboutMe'
 import MySkills from './features/MySkills/MySkills'
 import Projects from './features/Projects/Projects'
+import Contact from './features/Contact/Contact'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <AboutMe />
         <MySkills />
         <Projects />
+        <Contact />
       </main>
     </>
   )
