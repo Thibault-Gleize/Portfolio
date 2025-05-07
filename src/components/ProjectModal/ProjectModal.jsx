@@ -19,8 +19,8 @@ export default function ProjectModal ({isOpen, onRequestClose, project }) {
             <div className="modal-body">
                 <p>Description : {project.description}</p>
                 <div className="modal-body-btns">
-                    <button>Repo GitHub</button>
-                    <button>Demo</button>
+                    <a href=""><button>Repo GitHub</button></a>
+                    <a href=""><button>Demo</button></a>
                 </div>
             </div>
             <div className="modal-img">

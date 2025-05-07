@@ -4,7 +4,8 @@ import Banner from './features/Banner/Banner'
 import AboutMe from './features/AboutMe/AboutMe'
 import MySkills from './features/MySkills/MySkills'
 import Projects from './features/Projects/Projects'
-import Contact from './features/Contact/Contact'
+import EduAndExp from './features/EduAndExp/EduAndExp'
+import Footer from './features/Footer/Footer'
 
 function App() {
   return (
@@ -14,9 +15,10 @@ function App() {
         <Banner />
         <AboutMe />
         <MySkills />
+        <EduAndExp />
         <Projects />
-        <Contact />
       </main>
+      <Footer />
     </>
   )
 }

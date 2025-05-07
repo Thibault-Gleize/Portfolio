@@ -33,5 +33,30 @@
             "name" : "BootStrap",
             "path" : "/Projet_12/src/assets/images/bootstrap-5-1.svg"
         }
+    ], 
+    "education": [
+        {
+            "name" : "Parcours Intégrateurs Web",
+            "niveau" : "/ Bac +2 (Niveau 5)",
+            "from" : "Open ClassRoom",
+            "date" : "Juin 2024 - Mai 2025"
+        }
+    ], 
+    "jobs": [
+        {
+            "name" : "Superviseur",
+            "from" : "Téléperformance Grèce", 
+            "date" : "Octobre 2020 - Novembre 2024"
+        },
+        {
+            "name" : "Chargé de qualité & Analyste senior",
+            "from" : "Téléperformance Grèce", 
+            "date" : "Octobre 2019 - Octobre 2020"
+        },
+        {
+            "name" : "Agent technique & commercial",
+            "from" : "Téléperformance Grèce", 
+            "date" : "Janvier 2018 - Octobre 2019"
+        }
     ]
 }

@@ -1,5 +1,5 @@
 body{
-    margin: 0 5%;
+    
     background-image: url(../assets/images/background-body.jpg);
     background-repeat: no-repeat;
     background-color: #030059;
@@ -7,6 +7,7 @@ body{
 }
 
 main{
+    margin: 0 5%;
     display: flex;
     flex-direction: column;
     align-items: center;

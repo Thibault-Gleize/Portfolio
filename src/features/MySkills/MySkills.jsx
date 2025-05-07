@@ -1,5 +1,5 @@
 import './myskills.scss'
-import SkillsData from '../../assets/datas/skills_icons.json'
+import SkillsData from '../../assets/datas/skills_edu.json'
 
 
 export default function MySkills () {

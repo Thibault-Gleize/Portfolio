@@ -1,0 +1,14 @@
+.edu-and-exp-container{
+    display: flex;
+    gap: 25px;
+
+    .separator{
+        border: solid 3px white;
+    }
+}
+
+.educations, .experiences{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
