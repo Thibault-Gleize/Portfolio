@@ -16,7 +16,7 @@ main{
 
 // Element générales pour les boutons.
 
-button{
+button, .learn-more{
     color: #030051;
     font-weight: 600;
     background-color: rgb(124, 167, 223);
@@ -50,8 +50,4 @@ button{
         0 0 20px #fff, 
         0 0 40px #00a2ff,;
     }
-}
-
-h1, h2, h3 {
-
 }

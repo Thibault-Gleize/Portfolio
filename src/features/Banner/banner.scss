@@ -22,3 +22,14 @@ h2{
         font-size: 1rem;
     }
 }
+
+.learn-more{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    p{
+        color: #030059;
+    }
+}

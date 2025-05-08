@@ -10,7 +10,7 @@ export default function AboutMe () {
             <div className='presentation'>
                 <div className='portrait'></div>
                 <div className='description'>
-                    <h4>Passé par le monde des centres d'appels, j'y ai appris à écouter les utilisateurs et à chercher des solutions efficaces. Ces compétences me guident aujourd'hui dans mon travail d'intégration web, où je m'efforce de bâtir des interfaces qui allient simplicité d'usage et performance technique.</h4>
+                    <h4>Grâce à mon expérience dans les centres d'appels, j'ai acquis la compétence d'écouter attentivement les utilisateurs et de trouver des solutions efficaces. Ces compétences me guident actuellement dans mon travail d'intégration web, où je me concentre sur la création d'interfaces qui allient simplicité d'utilisation et performance technique.</h4>
                     <h5>Mon objectif &#x1F3AF;
                     <br /> 
                     Allier rigueur technique et approche centrée utilisateur pour créer des sites intuitifs, rapides et efficaces, tout en m'appuyant sur des données concrètes pour prendre les bonnes décisions.
