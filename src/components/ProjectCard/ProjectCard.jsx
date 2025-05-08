@@ -26,7 +26,7 @@ export default function ProjectCard (prop) {
                     <h4>{prop.name}</h4>
                 </div>
                 <div className='card-btn'>
-                    <button onClick={() => handleOpenModal(prop)} className='view-more'>Voir Plus</button>
+                    <button onClick={() => handleOpenModal(prop)} className='view-more'><p>Voir Plus</p></button>
                 </div>
             </div>
 
