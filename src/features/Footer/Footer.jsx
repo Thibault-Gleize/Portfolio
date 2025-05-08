@@ -1,7 +1,7 @@
 import './footer.scss'
-import x_logo from '../../assets/images/x_logo.avif'
-import linkedIn_logo from '../../assets/images/lkin_logo.avif'
-import github_logo from '../../assets/images/gh_logo.png'
+import x_logo from '/x_logo.webp'
+import linkedIn_logo from '/lkin_logo.webp'
+import github_logo from '/gh_logo.png'
 
 export default function Footer () {
     return(

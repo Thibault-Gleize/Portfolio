@@ -1,5 +1,5 @@
 import './header.scss';
-import logo from '../../assets/images/logo_TG.png'
+import logo from '/logo_TG_min.png'
 import { useState } from 'react';
 
 

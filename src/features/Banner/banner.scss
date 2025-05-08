@@ -22,39 +22,3 @@ h2{
         font-size: 1rem;
     }
 }
-
-button{
-    color: #030051;
-    font-weight: 600;
-    background-color: rgb(124, 167, 223);
-    border-radius: 25px;
-    margin-top: 45px;
-    font-size: 1.8rem;
-    width: 500px;
-    height: 100px;
-    transition: opacity 0.2s linear, box-shadow 0.2s;
-    opacity: 0.7;
-    box-shadow: none;
-    cursor: pointer;
-
-    @media (max-width: 1024px) {
-        width: 400px;
-        height: 80px;
-        font-size: 1.5rem;
-    }
-
-    @media (max-width: 768px) {
-        width: 200px;
-        height: 60px;
-        font-size: 0.75rem;
-    }
-
-    &:hover{
-        opacity: 1;
-        box-shadow: 
-        0 0 5px #fff, 
-        0 0 10px #fff, 
-        0 0 20px #fff, 
-        0 0 40px #00a2ff,;
-    }
-}

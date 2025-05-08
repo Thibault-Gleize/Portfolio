@@ -2,7 +2,7 @@
      "projects": [
         {
             "name" : "Booki",
-            "image_path" : "/Projet_12/src/assets/images/thibault-gleize.github.io_Projet_3_.png",
+            "image_path" : "/Projet_12/thibault-gleize.github.io_Projet_3.webp",
             "github_link" : "https://github.com/Thibault-Gleize/Projet_3",
             "git_page_link" : "https://thibault-gleize.github.io/Projet_3/",
             "description" : "Site de réservation de logement responsive",
@@ -10,16 +10,15 @@
         },
         {
             "name" : "Oh My Food",
-            "image_path" : "/Projet_12/src/assets/images/thibault-gleize.github.io_Projet-4_.png",
+            "image_path" : "/Projet_12/thibault-gleize.github.io_Projet-4.webp",
             "github_link" : "https://github.com/Thibault-Gleize/Projet-4",
-            "image_list" : ["/thibault-gleize.github.io_Projet-4_.png", ""],
             "git_page_link" : "https://thibault-gleize.github.io/Projet-4/",
             "description" : "Site de commande de plat avec animations",
             "skills" : "HTML / SASS"
         },
         {
             "name" : "Print-it",
-            "image_path" : "/Projet_12/src/assets/images/thibault-gleize.github.io_Projet_5_.png",
+            "image_path" : "/Projet_12/thibault-gleize.github.io_Projet_5.webp",
             "github_link" : "https://github.com/Thibault-Gleize/Projet_5",
             "git_page_link" : "https://thibault-gleize.github.io/Projet_5/",
             "description" : "Page d'acceuil d'une enseigne d'impression avec mise en place d'un carrousel pour la bannière",
@@ -27,7 +26,7 @@
         },
         {
             "name" : "Sophie Bluel - Architecte d'intérieur",
-            "image_path" : "/Projet_12/src/assets/images/Projet_6_img1.png",
+            "image_path" : "/Projet_12/Projet_6_img1.webp",
             "github_link" : "https://github.com/Thibault-Gleize/Projet-6",
             "git_page_link" : "",
             "description" : "Création d'un portfolio pour un architecte d'intérieur utilisant un système de login et modal pouvant ajouter ou supprimer les différentes images du portfolio",
