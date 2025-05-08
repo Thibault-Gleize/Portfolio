@@ -12,7 +12,7 @@ export default function Banner () {
                 <br/>
                 Je vous propose du code sur mesure pour votre projet, avec la passion d'un junior et la rigueur d'un pro !
             </h2>
-            <a className='learn-more-btn' href="#about-me"><p>Apprenez en plus sur moi &#x270C;</p></a>
+            <a className='learn-more-btn' href="#about-me"><p>Apprenez-en plus sur moi &#x270C;</p></a>
         </section>
     )
 }

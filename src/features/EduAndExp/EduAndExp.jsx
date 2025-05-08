@@ -10,7 +10,7 @@ export default function EduAndExp () {
 
     return (
         <section id='degree' className='EduAndExp section'>
-            <h3 className='title'>Diplômes et expériences Professionnels</h3>
+            <h3 className='title'>Diplômes et expériences Professionnelles</h3>
             <div className='edu-and-exp-container'>
                 <div className='educations'>
                     <h4>Diplômes :</h4>
@@ -24,7 +24,7 @@ export default function EduAndExp () {
                 </div>
                 <div className='separator'></div>
                     <div className='experiences'>
-                        <h4>Expériences Professionnels :</h4>
+                        <h4>Expériences Professionnelles :</h4>
                         {experiences_datas.map((exp) => <div key={exp.name} className='experience'>
                             <EduAndExpCard 
                             name={exp.name}
