@@ -1,11 +1,11 @@
 header, .logo-and-name {
     display: flex;
+    align-items: center;
 }
 
 header{
     position: relative;
     justify-content:space-between;
-    align-items: center;
 
     @media (max-width: 1024px) {
         margin: 0.2rem;
@@ -14,14 +14,6 @@ header{
     @media (max-width: 768px) {
         align-items: flex-start;
         flex-direction: column;
-    }
-
-    .menu{
-        display: none;
-
-        @media (max-width: 768px) {
-            display: block;
-        }
     }
 
     img{
@@ -34,17 +26,11 @@ header{
 
     h1{
         display: none;
-        position: relative;
-        bottom: 30px;
-        text-wrap: nowrap;
-        font-size: 3rem;
-        opacity: 0.9;
     }
 }
 
 .logo-and-name{
     flex-direction: column;
-    align-items: center;
 
     @media (max-width: 768px) {
         width: 100%;
@@ -123,8 +109,12 @@ nav ul{
 }
 
 // Gestion de l'animation du bouton de Menu en format mobile. 
-
 .menu {
+    display: none;
+
+    @media (max-width: 768px) {
+        display: block;
+    }
     --s: 25px; /* control the size */
     --c: white; /* the color */
     

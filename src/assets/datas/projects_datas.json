@@ -28,13 +28,6 @@
         {
             "name" : "Sophie Bluel - Architecte d'intérieur",
             "image_path" : "/Projet_12/src/assets/images/Projet_6_img1.png",
-            "image_list" : 
-            [
-                "/Projet_12/src/assets/images/Projet_6_img1.png", 
-                "/Projet_12/src/assets/images/Projet_6_img2.png",
-                "/Projet_12/src/assets/images/Projet_6_img3.png",
-                "/Projet_12/src/assets/images/Projet_6_img4.png"
-            ],
             "github_link" : "https://github.com/Thibault-Gleize/Projet-6",
             "git_page_link" : "",
             "description" : "Création d'un portfolio pour un architecte d'intérieur utilisant un système de login et modal pouvant ajouter ou supprimer les différentes images du portfolio",

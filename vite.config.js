@@ -7,12 +7,5 @@ export default defineConfig({
   base: '/Projet_12/',
   build: {
     outDir: 'dist',
-    assetsDir: 'assets',
-    rollupOptions: {
-      output: {
-        assetFileNames: 'assets/[name].[hash].[ext]' // Format unifié
-      }
-    },
-    emptyOutDir: true
   }
 })
