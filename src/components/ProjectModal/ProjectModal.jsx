@@ -13,16 +13,16 @@ export default function ProjectModal ({isOpen, onRequestClose, project }) {
             overlayClassName="modal-overlay"
         >
             <div className="modal-header">
-                <h2>{project.name}</h2>
+                <h2 className="modal-title">{project.name}</h2>
                 <button onClick={onRequestClose} className="close-btn">&times;</button>
             </div>
             <div className="modal-body">
-                <p>Description : {project.description}</p>
+                <p className="modal-text">Description : {project.description}</p>
                 <div className="modal-body-btns">
-                    <a href={project.repo} target="_blank"><button>Repo GitHub</button></a>
-                    {project.demo === "" ? null : <a href={project.demo} target="_blank"><button>Demo</button></a>}
+                    <a href={project.repo} target="_blank"><button className="modal-body-btn">Repo GitHub</button></a>
+                    {project.demo === "" ? null : <a href={project.demo} target="_blank"><button className="modal-body-btn">Demo</button></a>}
                 </div>
-                <p>Compétences utilisés : {project.skills}</p>
+                <p className="modal-text">Compétences utilisés : {project.skills}</p>
             </div>
             <div className="modal-img">
                 <img src={project.img} alt={`Aperçu du projet ${project.name}`} />

@@ -30,11 +30,11 @@ export default function Header () {
             </div>
             <nav>
                 <ul>
-                    <li><a href="#about-me"><i className="fa-solid fa-user"></i>A propos de moi</a></li>
-                    <li><a href="#skills"><i className="fa-solid fa-bullseye"></i>Compétences</a></li>
-                    <li><a href="#degree"><i className="fa-solid fa-book"></i>Formation et expériences</a></li>
-                    <li><a href="#projects"><i className="fa-solid fa-diagram-project"></i>Projets</a></li>
-                    <li><a href="mailto:tibo.gleize@gmail.com"><i className="fa-solid fa-envelope"></i>Contact</a></li>
+                    <li><a className='nav-link' href="#about-me"><i className="fa-solid fa-user"></i>A propos de moi</a></li>
+                    <li><a className='nav-link' href="#skills"><i className="fa-solid fa-bullseye"></i>Compétences</a></li>
+                    <li><a className='nav-link' href="#degree"><i className="fa-solid fa-book"></i>Formation et expériences</a></li>
+                    <li><a className='nav-link' href="#projects"><i className="fa-solid fa-diagram-project"></i>Projets</a></li>
+                    <li><a className='nav-link' href="mailto:tibo.gleize@gmail.com"><i className="fa-solid fa-envelope"></i>Contact</a></li>
                 </ul>
             </nav>
         </header>

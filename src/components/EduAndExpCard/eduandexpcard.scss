@@ -1,7 +1,9 @@
+$edu-exp-card-bg: #0500a0;
+
 .edu-exp-card{
     display: flex;
     flex-direction: column;
-    background-color: #0500a0;
+    background-color: $edu-exp-card-bg;
     padding: 15px 35px;
     min-width: 350px;
     gap: 10px;

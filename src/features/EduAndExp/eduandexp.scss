@@ -1,24 +1,25 @@
-.edu-and-exp-container{
+.edu-and-exp-container, .educations, .experiences{
     display: flex;
     gap: 25px;
+}
+
+.edu-and-exp-container{
 
     @media (max-width: 768px) {
         flex-direction: column;
     }
+}
 
-    .separator{
-        border: solid 3px white;
+.separator{
+    border: solid 3px white;
 
-        @media (max-width: 1024px) {
-            border: solid 2px white;
-        }
+    @media (max-width: 1024px) {
+        border: solid 2px white;
     }
 }
 
 .educations, .experiences{
-    display: flex;
     flex-direction: column;
-    gap: 25px;
 
     h4{
         min-height: 40px;

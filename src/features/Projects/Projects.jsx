@@ -12,7 +12,7 @@ export default function Projects () {
                 <h3>Mes projets</h3>
             </div>
             <ul className='project-list'>
-                {projects_list.map((project) => <li key={project.name}>
+                {projects_list.map((project) => <li className='project' key={project.name}>
                     <ProjectCard 
                     name={project.name} 
                     img={project.image_path} 

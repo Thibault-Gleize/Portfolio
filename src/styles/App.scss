@@ -1,10 +1,14 @@
+$text-main-color: #FCB922;
+$text-second-color: #030051;
+$background-btn:rgb(124, 167, 223);
+$background: #030059;
 
 
 
 body{
     background-image: url(/Projet_12/background-body.webp);
     background-repeat: no-repeat;
-    background-color: #030059;
+    background-color: $background;
 }
 
 main{
@@ -14,10 +18,74 @@ main{
     align-items: center;
 }
 
+// Gestion couleurs des textes
+
+.nav-link, h2, .description-text, .title, .skill, .edu-and-exp-container, .card-text{
+    color: $text-main-color;
+}
+
+.learn-more-btn, .modal-title, .modal-text{
+    color: $text-second-color;
+}
+
+// Gestion des couleurs pour cartes skills et projets 
+
+.skill, .project-card{
+    border-radius: 25px;
+    border: white solid 5px;
+    background-color: rgba(78, 78, 78, 0.5);
+}
+
+// Element générales pour sections et titre de section
+
+.section{
+    width: 80%;
+    padding: 100px;
+    border-radius: 25px;
+    margin-top: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: white;
+    border-style: inset;
+    color: white;
+    box-shadow:
+    0 0 5px #fff, 
+    0 0 10px #fff, 
+    0 0 20px #fff, 
+    0 0 40px #00a2ff, 
+    0 0 80px #00a2ff, 
+    0 0 90px #00a2ff, 
+    0 0 100px #00a2ff, 
+    0 0 150px #00a2ff;
+
+    @media (max-width: 1024px) {
+        width: 70%;
+        margin-top: 500px;
+    }
+
+    @media (max-width: 768px) {
+        width: 40%;
+    }
+}
+
+.title{
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+
+    @media (max-width: 1024px) {
+        font-size: 2rem;
+    }
+
+    @media (max-width: 768px) {
+        font-size: 1.5rem;
+    }
+}
+
 // Element générales pour les boutons.
 
-button, .learn-more{
-    color: #030051;
+button, .learn-more-btn, .description-button{
+    color: $text-second-color;
     font-weight: 600;
     background-color: rgb(124, 167, 223);
     border-radius: 25px;

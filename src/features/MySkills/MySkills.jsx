@@ -13,7 +13,7 @@ export default function MySkills () {
             <ul className='skills-list'>
                 {
                     skillsList.map((skill) => 
-                        <li key={skill.name}>
+                        <li className='skill' key={skill.name}>
                             <img src={skill.path} alt={`Logo de ${skill.name}`}></img>
                             <h4>{skill.name}</h4>
                         </li>
