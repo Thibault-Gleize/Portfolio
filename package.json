@@ -11,7 +11,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-  "homepage": "https://Thibault-Gleize.github.io/Projet_12/",
+  "homepage": "https://thibault-gleize.github.io/Portfolio/",
   "dependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0",

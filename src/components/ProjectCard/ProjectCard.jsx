@@ -1,6 +1,6 @@
 import './projectcard.scss'
 import { useState } from 'react';
-import ProjectModal from '../projectModal/projectModal';
+import ProjectModal from '../ProjectModal/ProjectModal';
 
 export default function ProjectCard (prop) {
 
